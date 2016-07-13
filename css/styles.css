@@ -1,9 +1,11 @@
 body {
 	background-image: url("../images/backdrop3.jpg");	
+	color: red;
 }
 
 .container {
 	background-color: #fff;
+	opacity: 1;
 }
 
 section {
@@ -14,6 +16,14 @@ section {
 
 #home {
 	margin-top: 70px;
+}
+
+ul {
+	color: green;
+}
+
+ul li a {
+	color: green;
 }
 
 @media (max-width: 500px){

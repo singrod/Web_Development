@@ -1,0 +1,23 @@
+body {
+	background-image: url("../images/backdrop3.jpg");	
+}
+
+.container {
+	background-color: #fff;
+}
+
+section {
+	height: 840px;
+	border: 1px solid black;
+	margin-bottom: 15px;
+}
+
+#home {
+	margin-top: 70px;
+}
+
+@media (max-width: 500px){
+	body{
+		opacity: 0.75;
+	}
+}

@@ -1,54 +1,55 @@
 <!DOCTYPE html PUBLIC "-//W12C//DTD XHTML 1.0 Transitional//EN" "http://www.w12.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w12.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Mark's Web Development</title>
+	<title>Home</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top"  role="navigation">
-	<div class="container-fluid">
+
+<div class="jumbotron">
+	<h1>Mark's Web Development</h1>
+</div>
+
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container">
 		<div class="navbar-header">			
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span> 
 			</button>			
-			<a href="#" class="navbar-brand">Mark's Web Development</a>				
+			<a href="#" class="navbar-brand">Spread Your Word!</a>				
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#home" >Home</a></li>
-				<li><a href="#selections">Selections</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li class="active"><a href="#" >Home</a></li>
+				<li><a href="products.php">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>		
 	</div>
 </nav>
-<div class="container">
-	<section id="home" class="col-md-12">
-			<p>This section will provide an overall description</p>
-	</section>
-	<section  id="selections" class="col-md-12">
-		<p>This section will offer various product details</p>
-		<ul>
-			<li><a href="#">Product one</p></li>
-			<li><a href="#">Product two</p></li>
-			<li><a href="#">Product three</p></li>
-			<li><a href="#">Product four</p></li>
-		</ul>
-	</section>
-	<section  id="about" class="col-md-12">
-		<p>Hi. Let me introduce myself...</p>
-	</section>	
-	<section  id="contact" class="col-md-12">
-		<p>Add a contact form</p>
-	</section>
+
+<div class="container" id="main">		
+	<div class="row">
+		<div class="container col-md-12">
+			<img class="img-responsive" id="homeImage" src="images/devices2.png" />
+		</div>		
+		<div id="home" class="col-md-12">			
+			<blockquote><p>&nbsp;&nbsp;&nbsp;&nbsp;Let's face it. Tech is here to stay. If you’re operating a small business and you don't have an active Website, you're already behind the curve. Whether you deploy a basic online brochure or an elaborate content management system, you need an online presence to reach your full potential.</p> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;An online presence instills trust with potential customers. It reinforces your brand with new and existing customers. It allows you to showcase the best you have to offer like no other advertising medium. It doesn't matter if your business is local or international. Nothing beats the power of the internet. If you haven't already done so, it's time to get connected.</p></blockquote>			
+		</div>	
+	</div>
+	<footer class="col-sm-12 copyright">
+		<p>&copy; 2016. All Rights Reserved. Powered by Mark's Web Development.</p>
+	</footer>	
 </div>
-<script src="scripts/jquery-2.2.12.min.js"></script>
+
+<script src="scripts/jquery-2.2.3.min.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
 </body>
 </html>

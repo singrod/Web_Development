@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<<<<<<< HEAD
 	<title>Mark's Web Development - Products</title>
-=======
-	<title>Products</title>
->>>>>>> f9d444348ffdd59d4469af587d13b641ceca37fd
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="fonts/font-awesome-4.6.2/font-awesome-4.6.2/css/font-awesome.min.css">

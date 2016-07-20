@@ -87,11 +87,7 @@ _______________________________________________________________________________*
 		</div>
 		<div id="contact" class="col-sm-4">			
 			<h2>Direct Contact</h2>
-<<<<<<< HEAD
 			<p><span class="fa fa-phone" aria-hidden="true"></span>&nbsp;&nbsp; (888) 111-2222</p>
-=======
-			<p><span class="fa fa-phone" aria-hidden="true"></span>&nbsp;&nbsp; (800) 111-2222</p>
->>>>>>> f9d444348ffdd59d4469af587d13b641ceca37fd
 			<p><span class="fa fa-envelope-o" aria-hidden="true"></span>&nbsp;&nbsp; msingleton29@cfl.rr.com</p>
 		</div>
 		<div id="contact" class="col-sm-8">			

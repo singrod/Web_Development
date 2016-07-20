@@ -89,7 +89,7 @@ _____________________________________
 */
 @media (max-width: 991px) {.navbar-inverse .navbar-nav>li>a {font-size: .95em;}}
 @media (max-width: 767px){	
-	#main {background-color: #EAD72F;}	
+	#main {background-color: #fff;}	
 	#home blockquote p, #about blockquote p {padding-top: 10px;font-size: .9em;color: black;}	
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {font-size: 1.30em;}
 	.navbar-inverse .navbar-nav>li>a {background-color: #080808;box-shadow: none;}
@@ -108,4 +108,6 @@ _____________________________________
 	.btn {font-size: 12px;}	
 	table {font-size: .50em;}	
 	tr:nth-child(odd) {background-color: #fff;}	
-	th {background-color: #fff;}}
+	th {background-color: #fff;}
+	table#products {margin-bottom: 200px;}}
+	

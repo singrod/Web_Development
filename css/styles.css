@@ -1,7 +1,6 @@
 /*
 Table of Contents
 _____________________________________
-
 - General Contents
 - Typography
 - Header & Navigation
@@ -9,15 +8,13 @@ _____________________________________
 - Footer
 - Table
 */
-
 /*
 General Contents
 _____________________________________
 */
-
 body {background-color: #EAD72F;	font-family: Georgia, sans-serif;}
 section {height: 100%;}
-.jumbotron {background-image: url("../images/blueBackdrop2.jpg");margin-bottom: 0px;text-align: left;}
+.jumbotron {background-image: url("../images/jumbo2.jpg");margin-bottom: 0px;text-align: left; padding-top: 15%;}
 #main {background-color: #fff;}
 #home blockquote {margin-top: 30px;border-left: 5px solid green;}
 #about blockquote {margin-top: 30px;border-left: 5px solid #951010;}
@@ -96,7 +93,8 @@ _____________________________________
 	.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {color: #fff;background-color: #2FDCE5;}	
 	table {font-size: 1.20em;}	
 	tr:nth-child(odd) {background-color: #fff;}	
-	th {background-color: #fff;}}
+	th {background-color: #fff;}
+	}
 @media (min-width: 501px){input[type=text], input[type=email] {width: 424px; height: 40px; padding-left: 5px;}}
 @media (max-width: 500px){
 	.jumbotron h1 {font-size: 1.85em;}
@@ -109,5 +107,6 @@ _____________________________________
 	table {font-size: .50em;}	
 	tr:nth-child(odd) {background-color: #fff;}	
 	th {background-color: #fff;}
-	table#products {margin-bottom: 200px;}}
+	table#products {margin-bottom: 200px;}
+	.jumbotron {background-image: url("../images/jumbo4.jpg"); padding-right: 50%; background-repeat: no-repeat;}}
 	

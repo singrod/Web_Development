@@ -36,7 +36,7 @@
 <div class="container" id="main">		
 	<div class="row">
 		<div class="container col-sm-12">
-			<img class="img-responsive" id="productsImage" src="images/photo.jpg" alt="picture of codes"/>
+			<img class="img-responsive" id="productsImage" src="images/products5.png" alt="picture of codes"/>
 		</div>		
 		<div class="col-sm-12">			
 			<table id="products">

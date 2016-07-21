@@ -83,7 +83,7 @@ _______________________________________________________________________________*
 <div class="container" id="main">		
 	<div class="row">
 		<div class="container col-sm-12">
-			<img class="img-responsive" id="contactImage" src="images/pc-guy4.png" alt="man sitting at computer"/>
+			<img class="img-responsive" id="contactImage" src="images/contact6.jpg" alt="man sitting at computer"/>
 		</div>
 		<div id="contact" class="col-sm-4">			
 			<h2>Direct Contact</h2>
@@ -92,7 +92,7 @@ _______________________________________________________________________________*
 		</div>
 		<div id="contact" class="col-sm-8">			
 			<form action="contact.php" method="post">
-				<h2>Contact Me Today!</h2>
+				<h2>What's Your Request?</h2>
 				<br />
 				<input type="text" name="firstName" placeholder="First Name *" value=""required /><br /><br />
 				<input type="text" name="lastName" placeholder="Last Name *" value="" required/><br /><br />
